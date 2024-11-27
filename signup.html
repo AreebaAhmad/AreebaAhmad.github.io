@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Habitat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu bg-success-subtle">
+              <li><a class="dropdown-item" href="#">Bookcase</a></li>
+              <li><a class="dropdown-item" href="#">Bedside Tables </a></li>
+              <li><a class="dropdown-item" href="#">Dinning Tables</a></li>
+              <li><a class="dropdown-item" href="#">Sofas</a></li>
+              <li><a class="dropdown-item" href="#">Beds</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Items" aria-label="Search">
+          <button class="btn btn-light" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-0 my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item" id="signin">
+            <a class="nav-link" href="signin.html">Sign In</a>
+          </li>
+          <li class="nav-item" id="signup">
+            <a class="nav-link" href="signup.html">Creat Account</a>
+          </li>
+          <li class="nav-item" id="cart">
+            <a class="nav-link" href=""><i class="fa fa-fw fa-shopping-cart"></i>Basket</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <form class="d-flex align-items-left flex-column py-5 px-5 signupForm" action=https://submit-form.com/NlxHnMVzy method="POST">
+      <div class="col-md-3 ">
+        <h1 class="item">Create Account</h1>
+      </div>
+      <div class="col-md-3">
+        <label for="first-name" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="first-name" name="first-name" aria-label="first-name" required>
+      </div>
+      <div class="col-md-3">
+        <label for="last-name" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="last-name" name="last-name" aria-label="last-name" required>
+      </div>
+        <div class="col-md-3">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" name="email" placeholder="abc@xyz.com" aria-label="email" required>
+        </div>
+        <div class="col-md-3">
+          <label for="inputPassword" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword" name="password" aria-label="password" required>
+        </div>
+        <div class="col-md-3">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="123 Main St" name="address" aria-label="address" required>
+        </div>
+        <div class="col-md-3">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" aria-label="address">
+        </div>
+        <div class="col-md-3">
+          <label for="postcode" class="form-label">Post Code</label>
+          <input type="text" class="form-control" id="postcode" name="postcode" aria-label="postcode" required>
+        </div>
+        <div class="col-md-3">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" name="city" aria-label="city" required>
+        </div>
+        <div class="col-md-3">
+          <label for="country" class="form-label">Country</label>
+          <select id="country" class="form-select" name="country" aria-label="country" required>
+          <option value="" disabled selected>Loading countries...</option>
+          </select>
+        </div>
+        <div class="col-md-3 mt-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+              I accept <a href="terms.html">Terms and Conditions</a>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="optIn" name="optIn">
+            <label class="form-check-label" for="optIn">
+              I would like to receive promotional emails and advertisements related to products and services that may interest me.
+            </label>
+          </div>
+        </div>
+        <div class="col-md-3 mt-2">
+          <button type="submit" class="btn btn-success">Sign Up</button>
+        </div>
+      </form>
+      <footer class="bg-success text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>We are a furniture company dedicated to offering the finest pieces for your home. Quality, style, and affordability are at the heart of everything we do.</p>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="terms.html" class="text-white text-decoration-none">Terms and Conditions</a></li>
+                        <li><a href="" class="text-white text-decoration-none">Return and Refund Policy</a></li>
+                        <li><a href="" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="text-white me-3"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" class="text-white me-3"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#" class="text-white"><i class="fa fa-fw fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Habitat. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetching the country list from the API
+            fetch('https://restcountries.com/v3.1/all')
+                .then(response => response.json())
+                .then(data => {
+                    const countrySelect = document.getElementById('country');
+                    countrySelect.innerHTML = ''; // Clear loading message
+                    
+                    // Add a default prompt
+                    countrySelect.innerHTML += '<option value="" disabled selected>Select your country</option>';
+    
+                    // Loop through the country data and add them as options
+                    data.forEach(country => {
+                        const countryName = country.name.common;
+                        const countryCode = country.cca2;
+                        countrySelect.innerHTML += `<option value="${countryCode}">${countryName}</option>`;
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching country data:', error);
+                    const countrySelect = document.getElementById('country');
+                    countrySelect.innerHTML = '<option value="" disabled selected>Failed to load countries</option>';
+                });
+        });
+    </script>
+    </body>
+</html>
+  
+    
+    
