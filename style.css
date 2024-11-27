@@ -31,6 +31,9 @@ nav li a:hover{
 .signupForm{
     background-image: url(images/signup.jpg);
 }
+.label contact{
+    text-align: justify;
+}
 /*
 .carousel-item{
    height: 500px;
